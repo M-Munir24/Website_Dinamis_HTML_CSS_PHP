@@ -1,0 +1,48 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url('../imgs/25.jpg'); 
+}
+.login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	font-family: arial;
+	transform: translate(-50%, -50%);
+	perspective: 1000px;
+	background-color: #98bf21;
+	border-radius: 5px;
+}
+.login button{
+	float: right;
+	margin-right: 10px;
+	margin-top: 50px;
+	width: 100px;
+	height: 30px;
+	border:0px;
+	color: white;
+	background-color: blue;
+	border-bottom: 5px solid lightblue;
+}
+.login button:hover{
+	border-bottom: 0px;
+	background-color: #03E089;
+	}
+	.login table{
+	margin-top: 100px;
+}
+.login table input{
+	width: 250px;
+	height: 35px;
+	border:2px solid lightblue;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.login h1{
+	font-family:Berlin Sans FB Demi;
+	color:white;  
+}

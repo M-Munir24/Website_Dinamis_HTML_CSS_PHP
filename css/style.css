@@ -1,0 +1,294 @@
+*{
+	padding : 0px;
+	margin : 0px;
+}
+
+#site-container{
+	width:960px;
+	height: auto;
+	margin:20px auto;
+	border:0px solid #000;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:#ffffcc;
+}
+
+#header {
+	width:950px;
+	height:280px;
+	background-color: lightblue;
+	background:url(../imgs/h2.png);
+	margin:0px auto;
+	border:0px solid #000;
+}
+
+#menu-content {
+	width:950px;
+	height:auto;
+	margin:5 auto;
+}
+
+#menu {
+	float:left;
+	width:300px;
+	height:auto;
+}
+
+.judul_1 {
+	display:block;
+	height:40px;
+	background:#669900;
+	font:20pt "Script MT Bold";
+	color:#fff;
+	text-align:center;
+	}
+
+.judul_2 {
+	display:block;
+	border-bottom:2px solid #000;
+	font:26pt "Script MT Bold";
+	color:#fff;
+	padding-bottom:10px;
+}
+#content p {
+	margin-top:20px;
+}
+#menu ul {
+	list-style:none;
+}
+#menu li a:hover {
+	background:blue;
+	color:white;
+ }
+#menu li a {
+	display:block;
+	height:30px;
+	font:16pt "Script MT Bold";
+	color:#669900;
+	text-decoration:none;
+	border-bottom:1px solid #669900;
+	border-right:1px solid #669900;
+	border-left:1px solid #669900;
+	padding-left:20px;
+}
+#content {
+	float:right;
+	width:610px;
+	height:auto;
+	background:#669900;
+	padding:15px;
+	border-left: 1px solid orange;
+}
+
+#footer {
+	width:950px;
+	height:40px;
+	margin-top:5px;
+	margin-bottom:0px;
+	margin-right:auto;
+	margin-left:auto;
+	background:#669900;
+	text-align:center;
+	padding-top:30px;
+	font-weight:bold;
+	color:#fff;
+}
+
+body{
+	background:url(../imgs/bg1.gif);
+	font:10pt verdana;
+	background-size: 100% 100%;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+
+.floating {
+	clear:both;
+	height:0px;
+	line-height:0px;
+}
+.login{
+	
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+
+}
+
+
+
+#menu1{
+	width: 950px;
+	height: 40px;
+	background-color: #98bf21;
+	margin: 5 auto;
+}
+#menu1 button{
+	float: left;
+	width: 100px;
+	height: 40px;
+	background-color: #669900;
+	border: 0px;
+	border-left: 1px solid gold;
+}
+#menu1 button:hover{
+	background-color: #02782D;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+figure{
+	background-color: silver; 
+	float:left;
+	width: 245px;
+	height: 230px;
+	padding: 5px;
+	margin: 10px;
+	font-size: 11pt;
+	border: 0px solid black;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+figcaption {
+	padding: 10px;
+	font-family: arial;
+	
+	text-align: center;
+}
+img{
+	width:244px;
+	height: 193px ;
+	
+}
+video{
+
+	width: 245px;
+	height: 195px ;
+}
+.table {
+	font-family: "Trebuchet MS";
+
+	border-collapse: collapse ;
+	
+}
+
+.table td{
+	
+	font-size: 10pt;
+	border: 2px solid #98bf21;
+	/*padding: 3px 7px 2px 7px;*/
+}
+.table th{
+	border: 2px solid #98bf21;
+	
+}
+
+.cari{
+	border:0px;
+	float: right;
+	width: 50px;
+	height: 30px;
+	background-color: lightblue;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+
+
+}
+.icari{
+	border:0;
+	float: right;
+	width: 200px;
+	height: 30px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.cari:hover{
+	color: white;
+}
+.cari1{
+	width: 605px;
+	height: auto;
+}
+.imgt{
+	float: left;
+	width: 120px;
+	height: 130px;
+	border: 3px solid #98bf21;		
+}
+.imgt:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.fgr{
+
+	background-color: silver; 
+	float:left;
+	width: 125px;
+	height: 165px;
+	margin:5px;
+	border: 0px solid black;
+
+		}
+.figc{
+	padding: 10px;
+	font-family: arial;
+	font-size: 80%;
+	text-align:center;
+}
+.fgr:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+a{
+	text-decoration: none;
+}
+.login1{
+
+	border: 0px;
+	float: right;
+	width: 70px;
+	height: 20px;
+	color: white;
+	border-bottom: 3px solid #02782D;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+	background-color: #98bf21;
+}
+.login1:hover{
+	border-bottom: 0px;
+}
+.imgdtl{
+	width: 200px;
+	height: auto;
+	border:10px solid #98bf21;
+	float: left;
+	padding: 3px;
+
+}
+.artikel{
+/*	background-color: lightblue;
+*/	text-align: justify;
+	font-size: 10pt;
+}
+.img {
+	width:115px;
+	height:auto;
+	border:5px solid #fff;
+	margin-top:20px;
+	margin-right:20px;
+	float:left;
+}
+.imgh {
+	width:200px;
+	height:auto;
+	border:5px solid #fff;
+	margin-top:20px;
+	margin-right:20px;
+	float:left;
+}
+
